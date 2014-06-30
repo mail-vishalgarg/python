@@ -3,6 +3,7 @@ import pymqi
 class mq_message(object):
 	
 	def __init__(self):
+		'''MQ Queue connection parameter'''
 		self.queue_manager = 'devqamq.queue.manager'
 		self.channel = 'SYSTEM.DEF.SVRCONN'
 		self.host = 'devpmmq1'
